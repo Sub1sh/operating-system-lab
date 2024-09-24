@@ -40,8 +40,8 @@ int main()
     printf("Inside Main Program\n");
     for (j = 20; j < 25; j++)
     {
-        printf("%d\n", j);
-        sleep(1);
+     printf("%d\n", j);
+     sleep(1);
     }
 
     return 0;
