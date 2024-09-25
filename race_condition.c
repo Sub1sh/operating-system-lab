@@ -28,7 +28,7 @@ void *fun2()
      printf("Value of shared variable updated by Thread2 is: %d\n",shared);
  }
 
- int main()
+     int main()
  {
  pthread_t thread1, thread2;
  pthread_create(&thread1, NULL, fun1, NULL);
